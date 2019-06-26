@@ -6,7 +6,7 @@ var randomNumber = Math.floor(Math.random() * 121)+ 19;
 var numbersArray = [];
 var imagesSrc = ['assets/images/image1.jpg', 'assets/images/image2.jpg', 'assets/images/image3.jpg', 'assets/images/image4.jpeg']
 
-for(var i =0; i<4; i++){
+for (var i = 0; i < 4; i++){
   var number = Math.floor(Math.random() * 12) + 1;
   numbersArray.push(number)
 }
@@ -19,6 +19,7 @@ for(var i=0; i< imagesSrc.length; i++){
   }
   $('body').append(img)
   //append the source and 
+  
   //append the random number inside
 }
 console.log(numbersArray)
@@ -26,6 +27,7 @@ console.log(numbersArray)
 
 
   //  * When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
+
   //Total score will be increase eveytime the user clicks on a crystal
 
   // * Your game will hide this amount until the player clicks a crystal.
